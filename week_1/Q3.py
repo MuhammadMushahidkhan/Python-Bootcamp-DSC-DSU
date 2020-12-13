@@ -1,25 +1,25 @@
 import time
 
-song="""Birds flying high, you know how I feel
-Sun in the sky, you know how I feel
-Breeze driftin' on by, you know how I feel
-Fish in the sea, you know how I feel
-River running free, you know how I feel
-Blossom on the tree, you know how I feel
-Dragonfly out in the sun, you know what I mean, don't you know?
-Butterflies all havin' fun, you know what I mean
-Sleep in peace when day is done, that's what I mean
-And this old world is a new world
-And a bold world, for me
-Stars when you shine, you know how I feel
-Scent of the pine, you know how I feel
-Oh, freedom is mine
-And I know how I feel
-I'm feeling good!"""
+songly="""This night is cold in the kingdom
+I can feel you fade away
+From the kitchen to the bathroom sink and
+Your steps keep me awake
+Don't cut me down, throw me out, leave me here to waste
+I once was a man with dignity and grace
+Now I'm slippin' through the cracks of your cold embrace
+So please, please
+Could you find a way to let me down slowly?
+A little sympathy, I hope you can show me
+If you wanna go then I'll be so lonely
+If you're leavin', baby, let me down slowly
+Let me down, down, let me down, down, let me down
+Let me down, down, let me down, down, let me down
+If you wanna go then I'll be so lonely
+If you're leavin', baby, let me down slowly"""
 
-def printSong(str):
+def lyoutput(str):
     for oneLine in str.splitlines():
         print(oneLine)
         time.sleep(1)
 
-printSong(song)
+lyoutput(songly)
